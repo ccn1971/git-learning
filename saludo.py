@@ -1,7 +1,7 @@
-# version 1 - saludo.py
+# saludo.py - versión 2.0.0
 
-def saludo():
-    print("Hola, esta es la versión 1 de la app.")
+def saludo(nombre="amigo"):
+    print(f"¡Hola, {nombre}! Esta es la versión 2.0 del saludo.")
 
 if __name__ == "__main__":
-    saludo()
+    saludo("Cristian")
